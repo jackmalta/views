@@ -17,3 +17,6 @@ Route::get('/', function () {
     return view('ola', compact('nome'));
 });
 Route::get('/cursos', 'CursosController@index');
+Route::get('/cursos/{index}', 'CursosController@show');
+
+Route::get('/inicio', 'InicioController@teste');
