@@ -1,5 +1,5 @@
 @extends('/layouts.master')
-@section('title', 'Cursos')
+@section('titl', 'fooooonte')
 @section('conteudo')
 
   <h1>Cursos</h1>
